@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func changeColorComponent(sender: AnyObject) {
         
+        //Update each value of where the slider is placed 
         let r: CGFloat = CGFloat(self.redControl.value)
         let g: CGFloat = CGFloat(self.greenControl.value)
         let b: CGFloat = CGFloat(self.blueControl.value)
